@@ -12,4 +12,14 @@ class Application
     $this->developer = $developer;
     $this->jobOffer = $jobOffer;
   }
+
+  public function getApplicantsName()
+  {
+    return $this->developer->getName();
+  }
+
+  public function getPositionName()
+  {
+    return $this->jobOffer->getPosition();
+  }
 }

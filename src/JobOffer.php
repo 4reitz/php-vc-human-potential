@@ -12,4 +12,9 @@ class JobOffer
     $this->company = $company;
     $this->position = $position;
   }
+
+  public function getPosition()
+  {
+    return $this->position;
+  }
 }

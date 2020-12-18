@@ -12,6 +12,11 @@ class Developer {
 
   public function createApplicationFor($offer)
   {
-    return new Application($developer, $offer);
+    return new Application($this, $offer);
+  }
+
+  public function getName()
+  {
+    return $this->name;
   }
 }

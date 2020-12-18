@@ -18,5 +18,9 @@ class Company
 
   public function welcome($application)
   {
+    $companyName = $this->name;
+    $applicantName = $application->getApplicantsName();
+    $position = $application->getPositionName();
+    echo "Welcome aboard at ${companyName}, ${applicantName}, as our new ${position}." . PHP_EOL;
   }
 }
