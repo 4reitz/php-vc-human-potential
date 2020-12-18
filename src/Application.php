@@ -7,6 +7,7 @@ class Application
   private $jobOffer;
   private $developer;
 
+  // Arguments order is clear: People first, everything else afterwards.
   public function __construct(Developer $developer, JobOffer $jobOffer)
   {
     $this->developer = $developer;
