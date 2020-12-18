@@ -21,6 +21,7 @@ class Company
     $companyName = $this->name;
     $applicantName = $application->getApplicantsName();
     $position = $application->getPositionName();
-    echo "Welcome aboard at ${companyName}, ${applicantName}, as our new ${position}." . PHP_EOL;
+    echo "Hey, gut, Du hast es geschafft! Schön, dass Du mitgemacht hast und Dich für 4Com interessierst. Schicke uns doch einfach Deine Bewerbung, dann können wir uns kennenlernen und vielleicht schon bald gemeinsam Neues denken und Neues schaffen!" . PHP_EOL . PHP_EOL;
+    echo "Alle weiteren Informationen findest du unter: https://www.4com.de/karriere/software-developer-fullstack-php/" . PHP_EOL;
   }
 }
