@@ -1,7 +1,7 @@
 {
     "name": "viercom/joboffer",
     "type": "library",
-    "autoloading": {
+    "autoload": {
         "psr-4": {
             "VierCom\\HumanPotential\\": "src/"
         }
