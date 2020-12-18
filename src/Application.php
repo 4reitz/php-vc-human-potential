@@ -7,7 +7,7 @@ class Application
   private $jobOffer;
   private $developer;
 
-  public function __construct($developer, $jobOffer)
+  public function __construct(Developer $developer, JobOffer $jobOffer)
   {
     $this->developer = $developer;
     $this->jobOffer = $jobOffer;

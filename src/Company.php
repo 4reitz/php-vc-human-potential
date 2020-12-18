@@ -6,17 +6,17 @@ class Company
 {
   private $name;
 
-  public function __construct($name)
+  public function __construct(string $name)
   {
     $this->name = $name;
   }
 
-  public function need($position)
+  public function need(string $position)
   {
     return new JobOffer($this, $position);
   }
 
-  public function welcome($application)
+  public function welcome(Application $application)
   {
     $companyName = $this->name;
     $applicantName = $application->getApplicantsName();
